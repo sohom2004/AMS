@@ -1,0 +1,86 @@
+.add-student-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .student-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .student-form input,
+  .student-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .student-form button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .student-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .get-all-button {
+    margin: 20px 0;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .get-all-button:hover {
+    background-color: #218838;
+  }
+  
+  .students-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .students-table th,
+  .students-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .students-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .students-table button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .students-table button:hover {
+    opacity: 0.8;
+  }
+  
+  .students-table button:first-child {
+    background-color: #007bff;
+  }
+  
+  .students-table button:last-child {
+    background-color: #dc3545;
+  }
+  
